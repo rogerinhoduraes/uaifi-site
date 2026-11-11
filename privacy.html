@@ -17,32 +17,32 @@
   <nav><a href="#pt">Português</a> · <a href="#en">English</a> · <a href="index.html">Suporte / Support</a></nav>
 
   <section id="pt">
-  <p><strong>Vigente desde 8 de novembro de 2026 (atualizada em 8 de novembro de 2026 para incluir anúncios).</strong></p>
-  <p>O UaiFi foi feito para que os seus dados fiquem com você. O app não tem cadastro nem login, não usa ferramentas de análise e não rastreia você entre apps e sites. A versão gratuita mostra anúncios do Google (veja abaixo).</p>
+  <p><strong>Vigente desde 8 de novembro de 2026 (atualizada em 11 de novembro de 2026 para incluir o app Android).</strong></p>
+  <p>O UaiFi foi feito para que os seus dados fiquem com você. O app não tem cadastro nem login e não tem ferramentas de análise próprias. A versão gratuita mostra anúncios do Google (veja abaixo).</p>
 
   <h2>O que fica no seu aparelho</h2>
-  <p>Os mapas da casa, as medições do Wi-Fi, os nomes dos cômodos, os lugares e as coordenadas deles, os aparelhos cadastrados (roteador, repetidores) e o plano de internet ficam guardados só no seu iPhone ou iPad. Nada disso é enviado para nós nem para outras empresas, e o app não sincroniza nada com o iCloud. O backup do seu aparelho, se estiver ligado, pode incluir esses dados, como acontece com qualquer app.</p>
+  <p>Os mapas da casa, as medições do Wi-Fi, os nomes dos cômodos, os lugares e as coordenadas deles, os aparelhos cadastrados (roteador, repetidores) e o plano de internet ficam guardados só no seu iPhone, iPad ou celular Android. Nada disso é enviado para nós nem para outras empresas, e o app não sincroniza nada com o iCloud nem com outra nuvem. No iPhone e iPad, o backup do seu aparelho, se estiver ligado, pode incluir esses dados, como acontece com qualquer app. No Android, o app não participa do backup automático do Google.</p>
 
   <h2>Câmera</h2>
-  <p>A câmera funciona como um GPS de dentro de casa (ARKit): ela mostra ao app onde você está enquanto você anda. Para reconhecer a casa numa próxima exploração, o app guarda no aparelho pontos de referência do ambiente, não fotos. Quando você cadastra um aparelho pela etiqueta, o texto é lido no próprio aparelho. Nenhuma foto ou vídeo é gravado ou enviado.</p>
+  <p>A câmera funciona como um GPS de dentro de casa (ARKit): ela mostra ao app onde você está enquanto você anda. Para reconhecer a casa numa próxima exploração, o app guarda no aparelho pontos de referência do ambiente, não fotos. Quando você cadastra um aparelho pela etiqueta, o texto é lido no próprio aparelho. Nenhuma foto ou vídeo é gravado ou enviado. No Android, a câmera é usada pelo ARCore (Google Play Services for AR) para saber onde você está enquanto anda; nenhuma foto ou vídeo é gravado ou enviado.</p>
 
   <h2>Localização</h2>
-  <p>A localização é usada só com o app aberto, para ler o nome da rede Wi-Fi (o iOS exige essa permissão) e para saber em qual dos seus lugares você está. As coordenadas ficam no aparelho. Para sugerir o nome de um lugar novo, o app pede o endereço aproximado ao serviço de mapas da Apple, que recebe a coordenada nesse momento.</p>
+  <p>A localização é usada só com o app aberto, para ler o nome da rede Wi-Fi (o iOS exige essa permissão) e para saber em qual dos seus lugares você está. No Android, o sistema também exige a localização (permissão de dispositivos por perto / Wi-Fi) para ler o nome e o sinal das redes Wi-Fi. As coordenadas ficam no aparelho. Para sugerir o nome de um lugar novo, no iPhone e iPad o app pede o endereço aproximado ao serviço de mapas da Apple; no Android, ao geocodificador do sistema (normalmente dos Serviços do Google Play). Em ambos, o serviço recebe a coordenada nesse momento.</p>
 
   <h2>Rede local</h2>
   <p>O app conversa com o seu roteador para medir a rapidez da resposta dele. Essa troca não sai da sua casa.</p>
 
   <h2>Teste de velocidade</h2>
-  <p>Para medir a velocidade, o app baixa e envia arquivos de teste sem conteúdo pessoal para o servidor público de testes da Cloudflare (speed.cloudflare.com). Como em qualquer acesso à internet, a Cloudflare recebe o endereço IP da sua conexão. Veja a <a href="https://www.cloudflare.com/privacypolicy/">política da Cloudflare</a>. Os mapas do app usam o Apple Maps, sob a <a href="https://www.apple.com/legal/privacy/">política da Apple</a>.</p>
+  <p>Para medir a velocidade, o app baixa e envia arquivos de teste sem conteúdo pessoal para o servidor público de testes da Cloudflare (speed.cloudflare.com). Como em qualquer acesso à internet, a Cloudflare recebe o endereço IP da sua conexão. A medida de resposta da internet também abre uma conexão vazia com o DNS público da Cloudflare (1.1.1.1), sem enviar dados. Veja a <a href="https://www.cloudflare.com/privacypolicy/">política da Cloudflare</a>. No iPhone e iPad, os mapas do app usam o Apple Maps, sob a <a href="https://www.apple.com/legal/privacy/">política da Apple</a>.</p>
 
   <h2>Anúncios</h2>
-  <p>A versão gratuita mostra uma faixa de anúncios do Google AdMob. Para exibi-la, o Google pode receber dados do aparelho, como endereço IP, modelo e versão do sistema e informações sobre o anúncio exibido. O app não pede permissão de rastreamento e não usa o identificador de publicidade (IDFA). Onde a lei exige (como no Espaço Econômico Europeu e no Reino Unido), o app mostra antes o formulário de consentimento do Google; sem consentimento, não pede anúncios. Os anúncios e o uso desses dados seguem a <a href="https://policies.google.com/technologies/ads">política de anúncios do Google</a>. Uma compra única dentro do app remove os anúncios. Os mapas, as medições e os demais dados da casa nunca são enviados ao Google.</p>
+  <p>A versão gratuita mostra uma faixa de anúncios do Google AdMob. Para exibi-la, o Google pode receber dados do aparelho, como endereço IP, modelo e versão do sistema e informações sobre o anúncio exibido. No iPhone e iPad, o app não pede permissão de rastreamento e não usa o identificador de publicidade (IDFA). No Android, o Google AdMob pode usar o identificador de publicidade do aparelho, o endereço IP, a localização aproximada e dados de diagnóstico para exibir e medir anúncios; você pode redefinir ou apagar esse identificador nas configurações do Android (Google > Anúncios). Onde a lei exige (como no Espaço Econômico Europeu e no Reino Unido), o app mostra antes o formulário de consentimento do Google (Google UMP); sem consentimento, não pede anúncios, e você pode mudar a escolha depois em Ajustes > Privacidade dos anúncios. Os anúncios e o uso desses dados seguem a <a href="https://policies.google.com/technologies/ads">política de anúncios do Google</a>. Uma compra única dentro do app remove os anúncios; no Android ela é feita pelo Google Play (Google Play Billing), o app não recebe seus dados de pagamento e o Google informa ao app apenas se a compra existe na sua conta. Os mapas, as medições e os demais dados da casa nunca são enviados ao Google.</p>
 
   <h2>Apagar seus dados</h2>
-  <p>Apague um lugar na página dele no app, ou apague o app para remover todos os dados do aparelho.</p>
+  <p>Apague um lugar na página dele no app, ou apague o app para remover todos os dados do aparelho (iPhone, iPad ou Android).</p>
 
   <h2>Crianças</h2>
-  <p>O app não coleta dados de ninguém, inclusive de crianças, e não é direcionado a menores de 13 anos.</p>
+  <p>O app não coleta dados por conta própria, inclusive de crianças, e não é direcionado a menores de 13 anos, no iPhone, iPad ou Android.</p>
 
   <h2>Mudanças</h2>
   <p>Se esta política mudar, a nova versão será publicada nesta página antes da atualização do app.</p>
@@ -52,32 +52,32 @@
   </section>
 
   <section id="en" class="lang" lang="en">
-  <p><strong>Effective November 8, 2026 (updated November 8, 2026 to include ads).</strong></p>
-  <p>UaiFi is built so that your data stays with you. The app has no sign-up or login, uses no analytics tools, and does not track you across apps and websites. The free version shows ads from Google (see below).</p>
+  <p><strong>Effective November 8, 2026 (updated November 11, 2026 to include the Android app).</strong></p>
+  <p>UaiFi is built so that your data stays with you. The app has no sign-up or login and has no analytics tools of its own. The free version shows ads from Google (see below).</p>
 
   <h2>What stays on your device</h2>
-  <p>Home maps, Wi-Fi measurements, room names, places and their coordinates, registered devices (router, extenders) and your internet plan are stored only on your iPhone or iPad. None of it is sent to us or to other companies, and the app does not sync anything to iCloud. Your device backup, if turned on, may include this data, as with any app.</p>
+  <p>Home maps, Wi-Fi measurements, room names, places and their coordinates, registered devices (router, extenders) and your internet plan are stored only on your iPhone, iPad or Android phone. None of it is sent to us or to other companies, and the app does not sync anything to iCloud or any other cloud. On iPhone and iPad, your device backup, if turned on, may include this data, as with any app. On Android, the app does not take part in Google's automatic backup.</p>
 
   <h2>Camera</h2>
-  <p>The camera works as an indoor GPS (ARKit): it tells the app where you are as you walk. To recognize your home on a later exploration, the app stores reference points of the space on the device, not photos. When you add a device from its label, the text is read on the device itself. No photo or video is recorded or sent.</p>
+  <p>The camera works as an indoor GPS (ARKit): it tells the app where you are as you walk. To recognize your home on a later exploration, the app stores reference points of the space on the device, not photos. When you add a device from its label, the text is read on the device itself. No photo or video is recorded or sent. On Android, the camera is used by ARCore (Google Play Services for AR) to tell where you are as you walk; no photo or video is recorded or sent.</p>
 
   <h2>Location</h2>
-  <p>Location is used only while the app is open, to read the Wi-Fi network name (iOS requires this permission) and to know which of your places you are in. Coordinates stay on the device. To suggest a name for a new place, the app asks Apple's maps service for the approximate address, which receives the coordinate at that moment.</p>
+  <p>Location is used only while the app is open, to read the Wi-Fi network name (iOS requires this permission) and to know which of your places you are in. On Android, the system also requires location (nearby devices / Wi-Fi permission) to read Wi-Fi network names and signal. Coordinates stay on the device. To suggest a name for a new place, on iPhone and iPad the app asks Apple's maps service for the approximate address; on Android, it asks the system geocoder (usually from Google Play services). In both cases the service receives the coordinate at that moment.</p>
 
   <h2>Local network</h2>
   <p>The app talks to your router to measure how fast it responds. This never leaves your home.</p>
 
   <h2>Speed test</h2>
-  <p>To measure speed, the app downloads and uploads test files with no personal content to Cloudflare's public test server (speed.cloudflare.com). As with any internet request, Cloudflare receives your connection's IP address. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's policy</a>. Maps in the app use Apple Maps, under <a href="https://www.apple.com/legal/privacy/">Apple's policy</a>.</p>
+  <p>To measure speed, the app downloads and uploads test files with no personal content to Cloudflare's public test server (speed.cloudflare.com). As with any internet request, Cloudflare receives your connection's IP address. The internet response measurement also opens an empty connection to Cloudflare's public DNS (1.1.1.1), sending no data. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's policy</a>. On iPhone and iPad, maps in the app use Apple Maps, under <a href="https://www.apple.com/legal/privacy/">Apple's policy</a>.</p>
 
   <h2>Ads</h2>
-  <p>The free version shows a banner of Google AdMob ads. To display it, Google may receive device data such as IP address, device model and system version, and information about the ad shown. The app does not ask for tracking permission and does not use the advertising identifier (IDFA). Where the law requires it (such as in the European Economic Area and the United Kingdom), the app first shows Google's consent form; without consent, it requests no ads. Ads and the use of this data follow <a href="https://policies.google.com/technologies/ads">Google's advertising policy</a>. A one-time in-app purchase removes the ads. Your maps, measurements and other home data are never sent to Google.</p>
+  <p>The free version shows a banner of Google AdMob ads. To display it, Google may receive device data such as IP address, device model and system version, and information about the ad shown. On iPhone and iPad, the app does not ask for tracking permission and does not use the advertising identifier (IDFA). On Android, Google AdMob may use the device's advertising ID, IP address, approximate location and diagnostic data to show and measure ads; you can reset or delete that ID in Android settings (Google > Ads). Where the law requires it (such as in the European Economic Area and the United Kingdom), the app first shows Google's consent form (Google UMP); without consent, it requests no ads, and you can change your choice later in Settings > Ads privacy. Ads and the use of this data follow <a href="https://policies.google.com/technologies/ads">Google's advertising policy</a>. A one-time in-app purchase removes the ads; on Android it is made through Google Play (Google Play Billing), the app does not receive your payment data, and Google only tells the app whether the purchase exists on your account. Your maps, measurements and other home data are never sent to Google.</p>
 
   <h2>Deleting your data</h2>
-  <p>Delete a place on its page in the app, or delete the app to remove all data from the device.</p>
+  <p>Delete a place on its page in the app, or delete the app to remove all data from the device (iPhone, iPad or Android).</p>
 
   <h2>Children</h2>
-  <p>The app collects no data from anyone, including children, and is not directed at children under 13.</p>
+  <p>The app collects no data on its own, including from children, and is not directed at children under 13, on iPhone, iPad or Android.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will be published on this page before the app update.</p>
